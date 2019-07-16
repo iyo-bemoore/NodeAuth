@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://user:vinsaro1985@ds245927.mlab.com:45927/authdatabase', { useNewUrlParser: true });
+mongoose.connect('mongodb://user:*********@ds245927.mlab.com:45927/authdatabase', { useNewUrlParser: true });
 const Schema = mongoose.Schema;
 
 const userSchema = new Schema({
